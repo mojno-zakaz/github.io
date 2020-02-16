@@ -333,7 +333,11 @@
             margin-top: 42px;
         }
     }
-    &__img {}
+    &__img {
+        img{
+            object-fit: contain;
+        }
+    }
 }
 .work {
     display: flex;
