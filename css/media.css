@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 @media (max-width: 1279.98px) {
   .nav__list a {
     font-size: 12px !important;
@@ -486,13 +493,15 @@
     left: 10px;
     top: 230px;
   }
+  .seo__img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .seo__img img {
-    max-width: 287px;
-    width: 100%;
+    max-width: 100%;
   }
   .mission__img img {
-    max-width: 280px;
-    width: 100%;
+    max-width: 100%;
   }
   .work__img {
     margin: 0;

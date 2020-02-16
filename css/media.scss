@@ -460,11 +460,10 @@
     }
     .seo{
         &__img{
+            padding-left: 10px;
+            padding-right: 10px;
             img{
-                max-width: 287px;
-                width: 100%;
-                max-height: 285px;
-                height: auto;
+                max-width: 100%;
             }
         }
     }
