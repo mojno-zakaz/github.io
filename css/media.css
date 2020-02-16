@@ -496,7 +496,7 @@
   .seo__img {
     padding-left: 10px;
     padding-right: 10px;
-    height: auto !important;
+    height: 100% !important;
   }
   .seo__img img {
     max-width: 100%;
