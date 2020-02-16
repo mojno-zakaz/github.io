@@ -189,7 +189,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 59px;
+    margin-bottom: 50px;
   }
   .experience__text {
     margin: 0;
@@ -212,13 +212,23 @@
   .experience__img {
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 59px;
   }
   .experience .callback-btn {
     margin-top: 32px;
   }
+  .experience__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .experience__btn #arrow-left {
     display: none;
+  }
+  .experience__btn .callback-btn {
+    margin-left: 140px;
   }
   .experience__btn img {
     display: block;
