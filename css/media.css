@@ -494,13 +494,17 @@
     top: 230px;
   }
   .seo__img {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 44px;
+    padding-right: 44px;
     height: auto !important;
   }
   .seo__img img {
     max-width: 100%;
     height: auto !important;
+  }
+  .mission {
+    padding-left: 44px;
+    padding-right: 44px;
   }
   .mission__img img {
     max-width: 100%;
