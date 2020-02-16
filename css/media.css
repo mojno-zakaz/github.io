@@ -502,7 +502,7 @@
     max-width: 100%;
     height: auto !important;
   }
-  .mission {
+  .mission__img {
     padding-left: 44px;
     padding-right: 44px;
   }
@@ -510,6 +510,8 @@
     max-width: 100%;
   }
   .work__img {
+    padding-left: 32px;
+    padding-right: 32px;
     margin: 0;
   }
   .work__img img {

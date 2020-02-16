@@ -470,9 +470,10 @@
         }
     }
     .mission{
-        padding-left: 44px;
-        padding-right: 44px;
+        
         &__img{
+            padding-left: 44px;
+            padding-right: 44px;
             img{
                 max-width: 100%;
             }
@@ -480,6 +481,8 @@
     }
     .work{
         &__img{
+            padding-left: 32px;
+            padding-right: 32px;
             margin: 0;
             img{
                 max-width: 310px;
