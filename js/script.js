@@ -4,8 +4,9 @@ $(document).ready(function(){
         $('body').toggleClass('lock');
     });
 
-    $('.callback-btn').click(function(){
+    $('.connect').click(function(){
         {
+            console.log('clicked')
             $('.popup-overlay').fadeIn();
             $('.popup-overlay').css('backgroundColor', 'rgba(0,0,0, 0.6')
         }

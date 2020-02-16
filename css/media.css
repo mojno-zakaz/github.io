@@ -20,6 +20,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 0;
   }
   .seo__img {
     margin: 0;
@@ -300,7 +301,7 @@
   }
   .container-main {
     background-position: center right;
-    height: 100vh;
+    height: 80vh;
   }
   .main {
     padding-left: 18px;
@@ -481,6 +482,10 @@
 }
 
 @media (max-width: 480px) {
+  .main-content img {
+    left: 10px;
+    top: 230px;
+  }
   .seo__img img {
     max-width: 287px;
     width: 100%;

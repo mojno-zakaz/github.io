@@ -296,6 +296,7 @@
     margin-top: 156px;
     padding-left: 232px;
     margin-bottom: 165px;
+    z-index: -1;
     &__cloud{
         position: absolute;
         top: 20px;
@@ -336,6 +337,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    z-index: -1;
     &__img {
         margin-left: 135px;
         margin-right: 158px;
@@ -379,6 +381,7 @@
     display: flex;
     margin-top: 212px;
     margin-bottom: 94px;
+    z-index: -1;
     &__img {}
     &__text {
         margin-left: 231px;
@@ -514,6 +517,7 @@
     margin: 0 auto;
     position: relative;
     margin-bottom: 263px;
+    z-index: -1;
     &__cloud1 {
         position: absolute;
         top: 0;
@@ -611,6 +615,7 @@
     width: 100%;
     background-color: #fff;
     position: absolute;
+    z-index: 500;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);

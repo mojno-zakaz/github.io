@@ -18,6 +18,7 @@
     .seo {
         flex-direction: column-reverse;
         justify-content: center;
+        margin-top: 0;
 		&__img {
             margin: 0;
             display: flex;
@@ -262,7 +263,7 @@
 }
 .container-main{
     background-position: center right;
-    height: 100vh;
+    height: 80vh;
 }
 .main{
     padding-left: 18px;
@@ -445,6 +446,10 @@
 }
 }
 @media (max-width: 480px){
+    .main-content img{
+        left: 10px;
+        top: 230px;
+    }
     .seo{
         &__img{
             img{
