@@ -493,6 +493,11 @@
   z-index: -1;
 }
 
+.fashion__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .fashion__text {
   margin-left: 231px;
   margin-right: 77px;

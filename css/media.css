@@ -524,9 +524,12 @@
     max-width: 310px;
     width: 100%;
   }
+  .fashion__img {
+    padding-left: 45px;
+    padding-right: 32px;
+  }
   .fashion__img img {
-    max-width: 298px;
-    width: 100%;
+    max-width: 100%;
   }
   .experience__img img {
     max-width: 310px;

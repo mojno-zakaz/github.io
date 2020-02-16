@@ -500,9 +500,10 @@
     }
     .fashion{
         &__img{
+            padding-left: 45px;
+            padding-right: 32px;
             img{
-                max-width: 298px;
-                width: 100%;
+                max-width: 100%;
             }
         }
     }

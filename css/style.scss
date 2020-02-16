@@ -390,7 +390,11 @@
     margin-top: 212px;
     margin-bottom: 94px;
     z-index: -1;
-    &__img {}
+    &__img {
+        img{
+            object-fit: contain;
+        }
+    }
     &__text {
         margin-left: 231px;
         margin-right: 77px;
