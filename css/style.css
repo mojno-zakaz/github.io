@@ -349,6 +349,11 @@
   margin-left: 205px;
 }
 
+.seo__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .seo__text {
   padding-top: 40px;
 }

@@ -502,11 +502,6 @@
             align-items: center;
   }
   .seo__img {
-    max-width: 287px;
-    width: 100%;
-    background: url("../img/seo1.png");
-    margin: 0;
-    background-size: cover;
     height: 285px;
   }
   .mission__img {
