@@ -462,9 +462,10 @@
         &__img{
             padding-left: 10px;
             padding-right: 10px;
-            height: 100% !important;
+            height: auto !important;
             img{
                 max-width: 100%;
+                height: auto !important;
             }
         }
     }
