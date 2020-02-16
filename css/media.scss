@@ -459,13 +459,17 @@
         top: 230px;
     }
     .seo{
+        justify-content: center;
+        align-items: center;
         &__img{
-            padding-left: 44px;
-            padding-right: 44px;
-            height: auto !important;
+            max-width: 287px;
+            width: 100%;
+            background: url('../img/seo1.png');
+            margin: 0;
+            background-size: cover;
+            height: 285px;
             img{
-                max-width: 100%;
-                height: auto !important;
+                
             }
         }
     }

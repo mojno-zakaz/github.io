@@ -493,14 +493,21 @@
     left: 10px;
     top: 230px;
   }
-  .seo__img {
-    padding-left: 44px;
-    padding-right: 44px;
-    height: auto !important;
+  .seo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .seo__img img {
-    max-width: 100%;
-    height: auto !important;
+  .seo__img {
+    max-width: 287px;
+    width: 100%;
+    background: url("../img/seo1.png");
+    margin: 0;
+    background-size: cover;
+    height: 285px;
   }
   .mission__img {
     padding-left: 44px;
