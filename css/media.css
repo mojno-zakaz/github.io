@@ -502,7 +502,11 @@
             align-items: center;
   }
   .seo__img {
-    height: 285px;
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+  .seo__img img {
+    max-width: 100%;
   }
   .mission__img {
     padding-left: 44px;

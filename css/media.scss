@@ -467,9 +467,11 @@
             // background: url('../img/seo1.png');
             // margin: 0;
             // background-size: cover;
-            height: 285px;
+            // height: 285px;
+            padding-left: 44px;
+            padding-right: 44px;
             img{
-                
+                max-width: 100%;
             }
         }
     }

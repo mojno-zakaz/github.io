@@ -350,8 +350,8 @@
 }
 
 .seo__img img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .seo__text {
