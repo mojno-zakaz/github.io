@@ -4,13 +4,21 @@ $(document).ready(function(){
         $('body').toggleClass('lock');
     });
 
-    $('.connect').click(function(){
+    $('.connect1').click(function(){
         {
             console.log('clicked')
             $('.popup-overlay').fadeIn();
             $('.popup-overlay').css('backgroundColor', 'rgba(0,0,0, 0.6')
         }
     });
+    $('.connect4').click(function(){
+        {
+            console.log('clicked')
+            $('.popup-overlay').fadeIn();
+            $('.popup-overlay').css('backgroundColor', 'rgba(0,0,0, 0.6')
+        }
+    });
+    
 
     $('.popup__close').click(function(){
         $('.popup-overlay').fadeOut();

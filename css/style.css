@@ -214,7 +214,7 @@
   display: none;
 }
 
-.callback-btn {
+.connect1, .connect2, .connect3, .connect4, .connect5, .connect6 {
   width: 185px;
   height: 47px;
   left: 130px;
@@ -237,9 +237,6 @@
   -webkit-transition: 0.25s ease-out;
   transition: 0.25s ease-out;
   cursor: pointer;
-}
-
-.callback-btn a {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -250,9 +247,11 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
+  outline: none;
+  border: none;
 }
 
-.callback-btn:hover {
+.connect1:hover, .connect2:hover, .connect3:hover, .connect4:hover, .connect5:hover, .connect6:hover {
   -webkit-transition: 0.25s ease-out;
   transition: 0.25s ease-out;
   background: -webkit-gradient(linear, left top, right top, from(#4AD5FF), to(#369EE0));
@@ -260,6 +259,10 @@
   -webkit-box-shadow: 0px 5px 10px rgba(90, 189, 213, 0.35);
           box-shadow: 0px 5px 10px rgba(90, 189, 213, 0.35);
   border-radius: 26.5px;
+}
+
+.connect3 {
+  width: 275px;
 }
 
 .media {
@@ -414,6 +417,7 @@
   max-width: 552px;
   width: 100%;
   color: #838383;
+  margin-bottom: 42px;
 }
 
 .mission__text #first {
@@ -422,6 +426,7 @@
 
 .mission__text .callback-btn {
   margin-top: 42px;
+  cursor: pointer;
 }
 
 .mission__img img {
@@ -626,6 +631,10 @@
 
 .experience__text p:first-of-type {
   margin-bottom: 20px;
+}
+
+.experience__text p:last-of-type {
+  margin-bottom: 42px;
 }
 
 .experience__text .callback-btn {
