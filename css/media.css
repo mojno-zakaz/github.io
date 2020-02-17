@@ -243,6 +243,12 @@
     margin-top: 32px;
     margin-left: 15px;
   }
+  .connect2 {
+    margin-top: 42px;
+  }
+  .connect3 {
+    margin-bottom: 42px;
+  }
   .marketing {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
